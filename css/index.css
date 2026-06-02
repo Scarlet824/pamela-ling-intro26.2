@@ -112,3 +112,25 @@ h2 {
     width: 40px;
     height: 40px;
 }
+
+#Skills ul {
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#Skills li {
+    background-color: #b67777;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    #Skills ul {
+        flex-direction: column;
+    }
+}
