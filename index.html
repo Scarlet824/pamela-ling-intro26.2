@@ -14,25 +14,26 @@
     <body>
         <nav class="navigation">
             <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Connect">Connect</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#connect">Connect</a></li>
+                <li><a href="#messageForm">Leave a Message</a></li>
             </ul>
         </nav>
 
-        <section id="Name">
+        <section id="name">
             <h1>Pamela Ling</h1>
             <img src="PamelaLing.jpg" width="300" alt="Picture of Me">
         </section>
 
-        <section id="About">
+        <section id="about">
             <h2>About</h2>
-            <p>I've always been interested in computers, but it wasn't until I received my own pc in 6th grade where I was really able to learn how to use it. I used my computer for everything, socializing with social media, downloading videos and music, making simple scripts, or even port forwarding so I could play certain games with my friends. I learned to fiddle with the hardware as well so I could replace almost all the parts. I liked to tinker and to solve problems. Even though I am starting a bit late, I want to learn how to program my own apps and create something from nothing. Technology is always changing and it helps make everyone's lives more convenient. I want to be able to try to eventually get a job in the tech field to be a part of that or at the very least be able to program apps that will make my own life easier. I'm very interested in AI and would like to learn more about how to optimize how to use the technology in the future as well.</p>
+            <p>I've always been interested in computers, but it wasn't until I received my own PC in 6th grade where I was really able to learn how to use it. I used my computer for everything, socializing with social media, downloading videos and music, making simple scripts, or even port forwarding so I could play certain games with my friends. I learned to work with the hardware as well so I could replace almost all the parts. I liked to tinker and to solve problems. Even though I am starting a bit late, I want to learn how to program my own apps and create something from nothing. Technology is always changing and it helps make everyone's lives more convenient. I want to be able to try to eventually pursue a career in the tech field to be a part of that or at the very least be able to program apps that will make my own life easier. I'm very interested in AI and would like to learn more about how to optimize how to use the technology in the future as well.</p>
         </section>
 
-        <section id="Experience">
+        <section id="experience">
             <h2>Experience</h2>
             <ul>
                 <li>
@@ -51,7 +52,7 @@
             </ul>
         </section>
 
-        <section id="Projects">
+        <section id="projects">
             <h2>Projects</h2>
             <ul></ul>
         </section>
@@ -61,7 +62,7 @@
             <ul></ul>
         </section>
 
-        <section id="Connect">
+        <section id="connect">
             <h2>Connect</h2>
             <ul>
                
@@ -76,6 +77,31 @@
                 </li>
             </ul>
         </section>  
+
+        <section id="messageForm">
+            <h2>Leave a Message</h2>
+            <form name = "leave_message">
+                <label for="usersName">Name:</label>
+                <input type="text" name="usersName" required>
+                <br>
+
+                <label for="usersEmail">Email:</label>
+                <input type="email" name="usersEmail" required>
+                <br>
+
+                <label for="usersMessage">Message:</label>
+                <textarea name="usersMessage" required></textarea>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="messages">
+            <h2>Messages</h2>
+            <ul></ul>
+        </section>
+
         <script src="js/index.js"></script>
     </body>
     
